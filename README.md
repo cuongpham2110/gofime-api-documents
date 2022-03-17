@@ -1,7 +1,7 @@
 
 
 <p align="center">
-<img src="https://res.cloudinary.com/gofimeimages/image/upload/v1520133562/logo_w250px.png" alt=""/>
+<img src="materials/img/Gofime%20API%20header.png" alt=""/>
 </p>
 
 ### GOFIME API
