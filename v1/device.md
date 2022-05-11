@@ -24,6 +24,7 @@
 {
 	"device":{
         "device_id": "device_id",
+	"nickname": "nickname",
         "status": "status",
         "hardware": "hardware",
         "firmware": "firmware",
@@ -47,6 +48,7 @@
 | Response parameters name | Description                                                  | Data Type  | Valid value                                                  |
 | ------------------------ | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
 | device_id                | Device ID                                                    | String     |                                                              |
+| nickname                 | Device nickname                                              | String     |                                                              |
 | status                   | Device status                                                | String     | If device is connecting to server, status is **online**. Otherwise, status is **offline** |
 | hardware                 | Device hardware type                                         | String     |                                                              |
 | firmware                 | Current device firmware                                      | String     |                                                              |
