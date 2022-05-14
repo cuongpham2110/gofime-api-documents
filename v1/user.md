@@ -45,6 +45,7 @@
 			},
 			{
 				"device_id": "device_id",
+				"nickname": "nickname",
 				"icon": "icon_code",
 				"color": "color_code",
 				"devlink": "GET /api/v1/devices/{device_id}"
