@@ -55,7 +55,8 @@ In version V1, there are 4 resources which are:
 	"status": {
 		"code": 405,
 		"name": "METHOD_NOT_ALLOWED",
-		"message": "Method is not allowed"
+		"message": "Method is not allowed",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
