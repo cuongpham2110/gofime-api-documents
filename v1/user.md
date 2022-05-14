@@ -9,7 +9,7 @@
 | Parameter name | Data Type |            Position             | Valid value                                               | Property |
 | :------------: | :-------: | :-----------------------------: | --------------------------------------------------------- | -------- |
 |    API Key     |  String   | HTTP Authorization Basic Header |                                                           | Required |
-|     fields     |  String   |              Query              | account, name, phone, api, service, devices, status       | Optional |
+|     fields     |  String   |              Query              | account, name, phone, api, service, devices               | Optional |
 |      sort      |  String   |              Query              | **desc** (descending) or **asc** (ascending) by device_id | Optional |
 
 
