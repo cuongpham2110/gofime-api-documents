@@ -26,13 +26,17 @@
 		{
 			"device_id": "device_id",
 			"nickname": "nickname",
+			"type": "type",
+			"icon": "icon_code",
+			"color": "color_code",
 			"status": "status",
 			"hardware": "hardware",
 			"firmware": "firmware",
 			"sim_phone_number": "sim_phone_number",
 			"sos_phone_number": "sos_phone_number",
 			"report_interval": 180,
-			"config": [C1, C2, C3, C4, C5, C6, C7],
+			"config": ["C1", "C2", "C3", "C4", "C5", "C6", "C7"],
+			"devlink": "GET /api/v1/devices/{device_id}"
 			"safezones": "GET /api/v1/devices/device_id/safezones"
 		},
 		{
@@ -44,7 +48,7 @@
 			"sim_phone_number": "sim_phone_number",
 			"sos_phone_number": "sos_phone_number",
 			"report_interval": 180,
-			"config": [C1, C2, C3, C4, C5, C6, C7],
+			"config": ["C1", "C2", "C3", "C4", "C5", "C6", "C7"],
 			"safezones": "GET /api/v1/devices/device_id/safezones"
 		},
 	],
