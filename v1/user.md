@@ -10,7 +10,6 @@
 | :------------: | :-------: | :-----------------------------: | --------------------------------------------------------- | -------- |
 |    API Key     |  String   | HTTP Authorization Basic Header |                                                           | Required |
 |     fields     |  String   |              Query              | account, name, phone, api, service, devices               | Optional |
-|      sort      |  String   |              Query              | **desc** (descending) or **asc** (ascending) by device_id | Optional |
 
 
 
@@ -34,25 +33,7 @@
 		"service": {
 			"googlemap": "0/0",
 			"sms": "0/0"
-		},
-		"devices": [
-			{
-				"device_id": "device_id",
-				"nickname": "nickname",
-				"type": "type",
-				"icon": "icon_code",
-				"color": "color_code",
-				"devlink": "GET /api/v1/devices/{device_id}"
-			},
-			{
-				"device_id": "device_id",
-				"nickname": "nickname",
-				"type": "type",
-				"icon": "icon_code",
-				"color": "color_code",
-				"devlink": "GET /api/v1/devices/{device_id}"
-			}
-		]
+		}
 	},
 	"status": {
 		"code": 200,
@@ -78,12 +59,7 @@
 | services                 | Service usage report                                         | Object    |                                                              |
 | googlemap                | 3rd party Googlemap service report                           | Number    |                                                              |
 | sms                      | Gofime SMS service report                                    | Number    |                                                              |
-| devices                  | General Information of all devices including device_id, icon and color. icon and color is customized in each user account | Object    |                                                              |
-| device_id                | Device ID                                                    | String    |    
-| nickname                 | Device nickname                                      	  | String    |
-| type                 | Device type                                      	  | String    | Gofime
-| icon                     | Icon of device. This is customized for each account          | String    | user, users, male, female, child, blind, deaf, wheelchair-alt, street-view, venus, mars, paw, motorcycle, bicycle, car, taxi, bus, truck, ship, rocket, plane, paper-plane, frown, meh, smile, bell, bookmark, flag, tags, sun, tint, futbol, star, heart, diamond, suitcase |
-| color                    | Icon of device. This is customized for each account          | String    | red, green, yellowgreen, blue, violet, turquoise, teal, springgreen, slateblue, sienna, purple, orchid, brown, crimson, darkcyan, darkgreen, darkmagenta, darkseagreen, darkslategrey, deeppink, gold, indigo, black, lightseagreen, olivedrab, orange, palevioletred, salmon, skyblue, indianred |
+
 
 
 
