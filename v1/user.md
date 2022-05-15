@@ -1,6 +1,6 @@
-### /api/v1/user
+### /v1/user
 
-##### 1. `GET` /api/v1/user
+##### 1. `GET` /v1/user
 
 **Description:** Get user information.
 
@@ -113,7 +113,7 @@
 
 ------
 
-##### 2. `PATCH` /api/v1/user
+##### 2. `PATCH` /v1/user
 
 **Description:** Modify user information partially.
 
@@ -214,7 +214,7 @@
 
 ------
 
-##### 3. `POST` `PUT` `DELETE` /api/v1/user
+##### 3. `POST` `PUT` `DELETE` /v1/user
 
 **Description:** These methods are not supported.
 
