@@ -44,6 +44,7 @@ In version V1, there are 4 resources which are:
 | 409  |      CONFLICT       |      Same type request is processed before      |
 | 429  |  TOO_MANY_REQUEST   |                Too many request                 |
 | 460  | TRANSACTION_FAILURE |    Transaction failure<br>Device is offline     |
+| 500  | INTERNAL_SERVER_ERROR |             Internal server errors              |
 | 503  | SERVICE_UNAVAILABLE |             Service is unavailable              |
 
 **Response content type:** application/json
