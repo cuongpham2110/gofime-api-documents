@@ -9,7 +9,7 @@
 | Parameter name | Data Type |            Position             | Valid value                                               | Property |
 | :------------: | :-------: | :-----------------------------: | --------------------------------------------------------- | -------- |
 |    API Key     |  String   | HTTP Authorization Basic Header |                                                           | Required |
-|     fields     |  String   |              Query              | account, name, phone, api, service, devices               | Optional |
+|     fields     |  String   |              Query              | account, name, phone, api, service	                   | Optional |
 
 
 
@@ -52,7 +52,7 @@
 | account                  | Account name                                                 | String    |                                                              |
 | name                     | Name that user registered to service                         | String    |                                                              |
 | phone                    | Phone that user registered to service                        | String    |                                                              |
-| created_at               | Datetime that user create account. See [reference format](datetime.md) | String    |                                                              |
+| created_at               | Datetime that user create account. Format: DD/MM/YYYY        | String    |                                                              |
 | api                      | API usage report                                             | Object    |                                                              |
 | per_minute               | API summary in last minutes                                  | Number    |                                                              |
 | per_day                  | API summary in current day                                   | Number    |                                                              |
