@@ -130,11 +130,6 @@
 | ------------------- | --------------------------------------------------- | --------- | ------------------------------------------------------------ | ---------------------------------------------- |
 | name                | Name that user registered to service                | String    |                                                              | Optional                                       |
 | phone               | Phone that user registered to service               | String    |                                                              | Optional                                       |
-| device_id           | Device ID                                           | String    |                                                              | Required<br>( If modifying device properties ) |
-| passcode            | Device passcode                                     | String    |                                                              | Required<br>( If modifying device properties ) |
-| nickname                 | Device nickname                                | String    |
-| icon                | Icon of device. This is customized for each account | String    | user, users, male, female, child, blind, deaf, wheelchair-alt, street-view, venus, mars, paw, motorcycle, bicycle, car, taxi, bus, truck, ship, rocket, plane, paper-plane, frown, meh, smile, bell, bookmark, flag, tags, sun, tint, futbol, star, heart, diamond, suitcase | Optional                                       |
-| color               | Icon of device. This is customized for each account | String    | red, green, yellowgreen, blue, violet, turquoise, teal, springgreen, slateblue, sienna, purple, orchid, brown, crimson, darkcyan, darkgreen, darkmagenta, darkseagreen, darkslategrey, deeppink, gold, indigo, black, lightseagreen, olivedrab, orange, palevioletred, salmon, skyblue, indianred | Optional                                       |
 
 
 
@@ -143,22 +138,6 @@
 	"info":{
 		"name": "user_name",
 		"phone": "user_phone",
-		"devices": [
-			{
-				"id": "device_id",
-				"passcode": "passcode",
-				"nickname": "nickname",
-				"icon": "icon_code",
-				"color": "color_code",
-			},
-			{
-				"id": "device_id",
-				"passcode": "passcode",
-				"nickname": "nickname",
-				"icon": "icon_code",
-				"color": "color_code",
-			}
-		]
 	}
 }
 ```
