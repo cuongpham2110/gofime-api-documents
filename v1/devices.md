@@ -36,8 +36,8 @@
 			"sos_phone_number": "sos_phone_number",
 			"report_interval": 180,
 			"config": ["C1", "C2", "C3", "C4", "C5", "C6", "C7"],
-			"devlink": "GET /api/v1/devices/{device_id}"
-			"safezones": "GET /api/v1/devices/device_id/safezones"
+			"devlink": "GET /v1/devices/{device_id}",
+			"safezones": "GET /v1/devices/device_id/safezones"
 		},
 		{
 			"device_id": "device_id",
@@ -49,7 +49,8 @@
 			"sos_phone_number": "sos_phone_number",
 			"report_interval": 180,
 			"config": ["C1", "C2", "C3", "C4", "C5", "C6", "C7"],
-			"safezones": "GET /api/v1/devices/device_id/safezones"
+			"devlink": "GET /v1/devices/{device_id}",
+			"safezones": "GET /v1/devices/device_id/safezones"
 		},
 	],
 	"status": {
