@@ -1,11 +1,11 @@
 ### Gofime API Date time format
 
-**Timezone:** Datetime parameter in Gofime API is based on Asia/Ho_Chi_Minh UTC+7
+**Timezone:** Datetime parameter in Gofime API is based on ISO 8601 and timezone Asia/Ho_Chi_Minh UTC+7
 
 **Format:** 
 
 ```javascript
-DD-MM-YYYY HH:mm:ss
+YYYY-MM-DDThh:mm:ss+07:00
 ```
 
 **Parameters:**
