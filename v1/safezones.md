@@ -23,63 +23,62 @@
 ```json
 {
 	"device": {
-        "device_id": "device_id",
-        "safezones": [
-            {
-                "safezone_id": 1,
-                "center": {
-                    "longitude": "longitude",
-                    "latitude": "latitude"
-                },
-                "radius": 200,
-                "label": "label"
-            },
-            {
-                "safezone_id": 2,
-                "center": {
-                    "longitude": "longitude",
-                    "latitude": "latitude"
-                },
-                "radius": 200,
-                "label": "label"
-            },
-            {
-                "safezone_id": 3,
-                "center": {
-                    "longitude": "longitude",
-                    "latitude": "latitude"
-                },
-                "radius": 200,
-                "label": "label"
-            },
-            {
-                "safezone_id": 4,
-                "center": {
-                    "longitude": "longitude",
-                    "latitude": "latitude"
-                },
-                "radius": 200,
-                "label": "label"
-            },
-            {
-                "safezone_id": 5,
-                "center": {
-                    "longitude": "longitude",
-                    "latitude": "latitude"
-                },
-                "radius": 200,
-                "label": "label"
+		"device_id": "device_id",
+		"safezones": [
+			{
+				"safezone_id": 1,
+				"center": {
+					"longitude": "longitude",
+					"latitude": "latitude"
+				},
+				"radius": 200,
+				"label": "label"
 			},
+			{
+				"safezone_id": 2,
+				"center": {
+					"longitude": "longitude",
+					"latitude": "latitude"
+				},
+				"radius": 200,
+				"label": "label"
+			},
+			{
+				"safezone_id": 3,
+				"center": {
+					"longitude": "longitude",
+					"latitude": "latitude"
+				},
+				"radius": 200,
+				"label": "label"
+			},
+			{
+				"safezone_id": 4,
+				"center": {
+					"longitude": "longitude",
+					"latitude": "latitude"
+				},
+				"radius": 200,
+				"label": "label"
+			},
+			{
+				"safezone_id": 5,
+				"center": {
+					"longitude": "longitude",
+					"latitude": "latitude"
+				},
+				"radius": 200,
+				"label": "label"
+			}
 		],
-		"devlink":"GET /api/v1/devices/device_id"
-	},
-	"status": {
-		"code": 200,
-		"name": "OK",
-		"message": "Success",
-		"additional_message": ""
-	},
-	"doclink": "https://gofime.vn/developers/documentation"
+		"status": {
+			"code": 200,
+			"name": "OK",
+			"message": "Success",
+			"additional_message": ""
+		},
+		"doclink": "https://gofime.vn/developers/documentation"
+	}
 }
 ```
 
@@ -192,7 +191,7 @@
                 },
                 "radius": 200,
                 "label": "label"
-            },
+            }
         ]
 	}
 }
