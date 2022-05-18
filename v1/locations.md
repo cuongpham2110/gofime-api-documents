@@ -42,7 +42,7 @@
                     "latitude": "latitude",
                     "velocity": "velocity",
                     "battery": "battery",
-                    "device_status": [S1, S2, S3, S4, S5],
+                    "device_status": ["S1", "S2", "S3", "S4", "S5"],
                     "safezone_status": {
                         "inside_safezone_id": [],
                         "outside_safezone_id": [],
@@ -55,7 +55,7 @@
                     "latitude": "latitude",
                     "velocity": "velocity",
                     "battery":"battery",
-                    "device_status" : [S1, S2, S3, S4, S5],
+                    "device_status" : ["S1", "S2", "S3", "S4", "S5"],
                     "safezone_status":{
                         "inside_safezone_id":[],
                         "outside_safezone_id":[],
@@ -74,7 +74,8 @@
 	"status": {
 		"code": 200,
 		"name": "OK",
-		"message": "Success"
+		"message": "Success",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -107,6 +108,7 @@
 | undefined_safezone_id    | Undefined safezone IDs                         | Number array |               |
 | pagination               | Pagination                                     | Object       |               |
 | current_page_index       | Current page index                             | Number       |               |
+| count                    | Number of locations in curent page		    | Number       |               |
 | limit                    | Equal to body request querry parameter `limit` | Number       |               |
 | total_page               | Total pages                                    | Number       |               |
 | total_record             | Total records                                  | Number       |               |
@@ -120,7 +122,8 @@
 	"status": {
 		"code": 400,
 		"name": "BAD_REQUEST",
-		"message": "Invalid parameters"
+		"message": "Invalid parameters",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -135,7 +138,8 @@
 	"status": {
 		"code": 401,
 		"name": "UNAUTHORIZED",
-		"message": "Client is unauthorized"
+		"message": "Client is unauthorized",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -150,7 +154,8 @@
 	"status": {
 		"code": 401,
 		"name": "UNAUTHORIZED",
-		"message": "Client is blocked and forbidden in all services"
+		"message": "Client is blocked and forbidden in all services",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -177,7 +182,8 @@
 	"status": {
 		"code": 405,
 		"name": "METHOD_NOT_ALLOWED",
-		"message": "Method is not allowed"
+		"message": "Method is not allowed",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
