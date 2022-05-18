@@ -128,7 +128,7 @@
 
 | Body parameter name | Description                                         | Data Type | Valid value                                                  | Property                                       |
 | ------------------- | --------------------------------------------------- | --------- | ------------------------------------------------------------ | ---------------------------------------------- |
-| name                | Name that user registered to service                | String    |                                                              | Optional                                       |
+| name                | Name that user registered to service                | String UTF-8    |                                                              | Optional                                       |
 | phone               | Phone that user registered to service               | String    |                                                              | Optional                                       |
 
 
