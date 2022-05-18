@@ -28,7 +28,6 @@
 			"icon": "icon_code",
 			"color": "color_code",
 			"status": "status",
-			"hardware": "hardware",
 			"firmware": "firmware",
 			"sim_phone_number": "sim_phone_number",
 			"sos_phone_number": "sos_phone_number",
@@ -49,7 +48,6 @@
 			"device_id": "device_id",
 			"nickname": "nickname",
 			"status": "status",
-			"hardware": "hardware",
 			"firmware": "firmware",
 			"sim_phone_number": "sim_phone_number",
 			"sos_phone_number": "sos_phone_number",
@@ -87,7 +85,6 @@
 | icon                     | Icon of device. This is customized for each account          | String    | user, users, male, female, child, blind, deaf, wheelchair-alt, street-view, venus, mars, paw, motorcycle, bicycle, car, taxi, bus, truck, ship, rocket, plane, paper-plane, frown, meh, smile, bell, bookmark, flag, tags, sun, tint, futbol, star, heart, diamond, suitcase |
 | color                    | Icon of device. This is customized for each account          | String    | red, green, yellowgreen, blue, violet, turquoise, teal, springgreen, slateblue, sienna, purple, orchid, brown, crimson, darkcyan, darkgreen, darkmagenta, darkseagreen, darkslategrey, deeppink, gold, indigo, black, lightseagreen, olivedrab, orange, palevioletred, salmon, skyblue, indianred |
 | status                   | Device status                                                | String     | If device is connecting to server, status is **online**. Otherwise, status is **offline** |
-| hardware                 | Device hardware type                                         | String     |                                                              |
 | firmware                 | Current device firmware                                      | String     |                                                              |
 | sim_phone_number         | Current SIM (Subscriber Identity Module) inside device       | String     |                                                              |
 | sos_phone_number         | SOS number in case of warnings                               | String     |                                                              |
