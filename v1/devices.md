@@ -35,11 +35,11 @@
 			"config": ["C1", "C2", "C3", "C4", "C5", "C6", "C7"],
 			"sim_account_balance":{
 				"value": 0,
-				"last_update_datetime": "01-08-2020 13:51:13"
+				"last_update_datetime": "YYYY-MM-DDTHH:mm:ss+07:00"
 			},
 			"battery":{
-				"value": 60,
-				"last_update_datetime": "01-08-2020 13:51:13"
+				"value": 0,
+				"last_update_datetime": "YYYY-MM-DDTHH:mm:ss+07:00"
 			},
 			"devlink": "GET /v1/devices/{device_id}",
 			"safezones": "GET /v1/devices/{device_id}/safezones"
@@ -58,11 +58,11 @@
 			"config": ["C1", "C2", "C3", "C4", "C5", "C6", "C7"],
 			"sim_account_balance":{
 				"value": 0,
-				"last_update_datetime": "01-08-2020 13:51:13"
+				"last_update_datetime": "YYYY-MM-DDTHH:mm:ss+07:00"
 			},
 			"battery":{
-				"value": 60,
-				"last_update_datetime": "01-08-2020 13:51:13"
+				"value": 0,
+				"last_update_datetime": "YYYY-MM-DDTHH:mm:ss+07:00"
 			},
 			"devlink": "GET /v1/devices/{device_id}",
 			"safezones": "GET /v1/devices/{device_id}/safezones"
