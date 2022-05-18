@@ -155,15 +155,15 @@
 
 ```json
 {
-	"device":{
-        "device_id": "device_id",
-	"nickname": "nickname",
-	"icon": "icon_code",
-	"color": "color_code",
-        "sos_phone_number": "sos_phone_number",
-        "report_interval": 180,
-        "config": ["C1", "C2", "C3", "C4", "C5", "C6", "C7"]
-    }
+	"device": {
+		"device_id": "device_id",
+		"nickname": "nickname",
+		"icon": "icon_code",
+		"color": "color_code",
+		"sos_phone_number": "sos_phone_number",
+		"report_interval": 180,
+		"config": ["C1", "C2", "C3", "C4", "C5", "C6", "C7"]
+    	}
 }
 ```
 
