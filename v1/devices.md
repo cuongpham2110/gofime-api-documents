@@ -47,6 +47,9 @@
 		{
 			"device_id": "device_id",
 			"nickname": "nickname",
+			"type": "type",
+			"icon": "icon_code",
+			"color": "color_code",
 			"status": "status",
 			"firmware": "firmware",
 			"sim_phone_number": "sim_phone_number",
