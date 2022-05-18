@@ -22,27 +22,28 @@
 
 ```json
 {
-	"device_id": "device_id",
-	"nickname": "nickname",
-	"type": "type",
-	"icon": "icon_code",
-	"color": "color_code",
-	"status": "status",
-	"firmware": "firmware",
-	"sim_phone_number": "sim_phone_number",
-	"sos_phone_number": "sos_phone_number",
-	"report_interval": 180,
-	"config": ["C1", "C2", "C3", "C4", "C5", "C6", "C7"],
-	"sim_account_balance":{
-		"value": 0,
-		"last_update_datetime": "YYYY-MM-DDTHH:mm:ss+07:00"
+	"device": {
+		"device_id": "device_id",
+		"nickname": "nickname",
+		"type": "type",
+		"icon": "icon_code",
+		"color": "color_code",
+		"status": "status",
+		"firmware": "firmware",
+		"sim_phone_number": "sim_phone_number",
+		"sos_phone_number": "sos_phone_number",
+		"report_interval": 180,
+		"config": ["C1", "C2", "C3", "C4", "C5", "C6", "C7"],
+		"sim_account_balance": {
+			"value": 0,
+			"last_update_datetime": "YYYY-MM-DDTHH:mm:ss+07:00"
+		},
+		"battery": {
+			"value": 0,
+			"last_update_datetime": "YYYY-MM-DDTHH:mm:ss+07:00"
+		},
+		"safezones": "GET /api/v1/devices/device_id/safezones"
 	},
-	"battery":{
-		"value": 0,
-		"last_update_datetime": "YYYY-MM-DDTHH:mm:ss+07:00"
-	},
-        "safezones": "GET /api/v1/devices/device_id/safezones"
-    },
 	"status": {
 		"code": 200,
 		"name": "OK",
