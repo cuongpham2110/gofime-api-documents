@@ -23,22 +23,23 @@
 
 ```json
 {
-	"device":{
-        "device_id": "device_id",
-        "safezone": {
-            "safezone_id": safezone_id,
-            "center": {
-                "longitude": "longitude",
-                "latitude": "latitude"
-            },
-            "radius": 200,
-            "label": "label"
-        }
-    },
+	"device": {
+		"device_id": "device_id",
+		"safezone": {
+			"safezone_id": "safezone_id",
+			"center": {
+				"longitude": "longitude",
+				"latitude": "latitude"
+			},
+			"radius": 200,
+			"label": "label"
+		}
+	},
 	"status": {
 		"code": 200,
 		"name": "OK",
-		"message": "Success"
+		"message": "Success",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -65,7 +66,8 @@
 	"status": {
 		"code": 400,
 		"name": "BAD_REQUEST",
-		"message": "Invalid parameters"
+		"message": "Invalid parameters",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -80,7 +82,8 @@
 	"status": {
 		"code": 401,
 		"name": "UNAUTHORIZED",
-		"message": "Client is unauthorized"
+		"message": "Client is unauthorized",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -95,7 +98,8 @@
 	"status": {
 		"code": 401,
 		"name": "UNAUTHORIZED",
-		"message": "Client is blocked and forbidden in all services"
+		"message": "Client is blocked and forbidden in all services",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -131,15 +135,15 @@
 ```json
 {
 	"device": {
-        "device_id": "device_id",
-        "safezone": {
-            "center": {
-                "longitude": "longitude",
-                "latitude": "latitude"
-            },
-            "radius": 200,
-            "label": "label"
-        }
+		"device_id": "device_id",
+		"safezone": {
+			"center": {
+				"longitude": "longitude",
+				"latitude": "latitude"
+			},
+			"radius": 200,
+			"label": "label"
+		}
 	}
 }
 ```
@@ -157,7 +161,8 @@
 	"status": {
 		"code": 200,
 		"name": "OK",
-		"message": "Success"
+		"message": "Success",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -172,7 +177,8 @@
 	"status": {
 		"code": 400,
 		"name": "BAD_REQUEST",
-		"message": "Invalid parameters"
+		"message": "Invalid parameters",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -187,7 +193,8 @@
 	"status": {
 		"code": 401,
 		"name": "UNAUTHORIZED",
-		"message": "Client is unauthorized"
+		"message": "Client is unauthorized",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -202,7 +209,8 @@
 	"status": {
 		"code": 403,
 		"name": "FORBIDDEN",
-		"message": "Client is blocked and forbidden in all services"
+		"message": "Client is blocked and forbidden in all services",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -244,7 +252,8 @@
 	"status": {
 		"code": 200,
 		"name": "OK",
-		"message": "Success"
+		"message": "Success",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -259,7 +268,8 @@
 	"status": {
 		"code": 400,
 		"name": "BAD_REQUEST",
-		"message": "Invalid parameters"
+		"message": "Invalid parameters",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -274,7 +284,8 @@
 	"status": {
 		"code": 401,
 		"name": "UNAUTHORIZED",
-		"message": "Client is unauthorized"
+		"message": "Client is unauthorized",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -289,7 +300,8 @@
 	"status": {
 		"code": 403,
 		"name": "FORBIDDEN",
-		"message": "Client is blocked and forbidden in all services"
+		"message": "Client is blocked and forbidden in all services",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
@@ -316,7 +328,8 @@
 	"status": {
 		"code": 405,
 		"name": "METHOD_NOT_ALLOWED",
-		"message": "Method is not allowed"
+		"message": "Method is not allowed",
+		"additional_message": ""
 	},
 	"doclink": "https://gofime.vn/developers/documentation"
 }
