@@ -9,7 +9,7 @@
 | Parameter name | Data Type |            Position             | Valid value                                                  | Property |
 | :------------: | :-------: | :-----------------------------: | ------------------------------------------------------------ | -------- |
 |    API Key     |  String   | HTTP Authorization Basic Header |                                                              | Required |
-|     fields     |  String   |              Query              | device_id, nickname, type, icon, color, status, hardware, firmware, sim_phone_number, sos_phone_number, report_interval, config, sim_account_balance, battery | Optional |
+|     fields     |  String   |              Query              | device_id, nickname, type, icon, color, status, firmware, sim_phone_number, sos_phone_number, report_interval, config, sim_account_balance, battery | Optional |
 
 
 **Response:**
