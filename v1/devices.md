@@ -91,7 +91,7 @@
 | firmware                 | Current device firmware                                      | String     |                                                              |
 | sim_phone_number         | Current SIM (Subscriber Identity Module) inside device       | String     |                                                              |
 | sos_phone_number         | SOS number in case of warnings                               | String     |                                                              |
-| report_interval          | Report data interval                                         | Number     | 20, 40, 60, 180, 300, 600, 1200, 1800, 3600, 7200, 10800     |
+| report_interval          | Report data interval. Unit: second                                         | Number     | 20, 40, 60, 180, 300, 600, 1200, 1800, 3600, 7200, 10800     |
 | config                   | Device configuration includes: <br>C1: Enable saving mode<br>C2: Enable send SMS to inform operation mode<br>C3: Enable send SMS to inform out of all safezone<br>C4: Enable send SMS to inform out of battery<br>C5: Enable send SMS in case of holding SOS button<br>C6: Stop tracking at night<br>C7: Disable manual power off | Bool Array | true, false for each element                                 |
 | sim_account_balance | SIM account balance | Object |                                                              |
 | sim_account_balance.value | SIM account balance value in VND | Number |                                                              |
