@@ -10,8 +10,6 @@
 | :------------: | :-------: | :-----------------------------: | ------------------------------------------------------------ | -------- |
 |    API Key     |  String   | HTTP Authorization Basic Header |                                                              | Required |
 |     fields     |  String   |              Query              | device_id, nickname, type, icon, color, status, hardware, firmware, sim_phone_number, sos_phone_number, report_interval, config, status | Optional |
-|      sort      |  String   |              Query              | **desc** (descending) or **asc** (ascending) by device_id    | Optional |
-
 
 
 **Response:**
