@@ -5,7 +5,7 @@
 **Format:** 
 
 ```javascript
-YYYY-MM-DDThh:mm:ss+07:00
+YYYY-MM-DDTHH:mm:ss+07:00
 ```
 
 **Parameters:**
