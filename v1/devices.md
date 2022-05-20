@@ -154,7 +154,7 @@
 
 ##### 2. `POST` /api/v1/devices
 
-**Description:** Add new devices into current user's device list.
+**Description:** Add new device into current user's device list.
 
 **Parameters:**
 
@@ -172,16 +172,8 @@
 
 ```json
 {
-	"devices":[
-		{
-			"device_id": "device_id",
-			"passcode": "passcode"
-		},
-		{
-			"device_id": "device_id",
-			"passcode": "passcode"
-		}
-	]
+	"device_id": "device_id",
+	"passcode": "passcode"
 }
 ```
 
