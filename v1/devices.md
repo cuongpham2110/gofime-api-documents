@@ -179,7 +179,7 @@
 	"passcode": "passcode",
 	"nickname": "nickname",
 	"icon": "icon_code",
-	"color": "color_code",
+	"color": "color_code"
 }
 ```
 
