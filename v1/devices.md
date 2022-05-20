@@ -169,11 +169,17 @@
 | ------------------- | --------------- | --------- | ----------- | -------- |
 | device_id           | Device ID       | String    |             | Required |
 | passcode            | Device passcode | String    |             | Required |
+| nickname            | Device nickname | String    |             | Optional |
+| icon                | Icon of device. This is customized for each account          | String    | user (default), users, male, female, child, blind, deaf, wheelchair-alt, street-view, venus, mars, paw, motorcycle, bicycle, car, taxi, bus, truck, ship, rocket, plane, paper-plane, frown, meh, smile, bell, bookmark, flag, tags, sun, tint, futbol, star, heart, diamond, suitcase | Optional |
+| color               | Icon of device. This is customized for each account          | String    | red (default), green, yellowgreen, blue, violet, turquoise, teal, springgreen, slateblue, sienna, purple, orchid, brown, crimson, darkcyan, darkgreen, darkmagenta, darkseagreen, darkslategrey, deeppink, gold, indigo, black, lightseagreen, olivedrab, orange, palevioletred, salmon, skyblue, indianred | Optional |
 
 ```json
 {
 	"device_id": "device_id",
-	"passcode": "passcode"
+	"passcode": "passcode",
+	"nickname": "nickname",
+	"icon": "icon_code",
+	"color": "color_code",
 }
 ```
 
