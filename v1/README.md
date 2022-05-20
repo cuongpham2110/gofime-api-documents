@@ -62,8 +62,9 @@ In version V1, there are 4 resources which are:
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
-
-
+##### 4. API Quota
+- 10 requests per minute
+- 1600 requests per day
 
 
 
