@@ -175,11 +175,13 @@
 
 ```json
 {
-	"device_id": "device_id",
-	"passcode": "passcode",
-	"nickname": "nickname",
-	"icon": "icon_code",
-	"color": "color_code"
+	"device": {
+		"device_id": "device_id",
+		"passcode": "passcode",
+		"nickname": "nickname",
+		"icon": "icon_code",
+		"color": "color_code"
+	}
 }
 ```
 
