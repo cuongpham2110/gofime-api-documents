@@ -11,8 +11,6 @@
 |    API Key     | String | HTTP Authorization Basic Header |                                                       | Required |
 |   device_id    | String |              Path               |                                                       | Required |
 |  safezone_id   | Number |              Path               | 1, 2, 3, 4, 5                                         | Required |
-|     fields     | String |              Query              | device_id, safezone_id, center, radius, label, status | Optional |
-
 
 
 **Response:**
@@ -228,6 +226,7 @@
 | :------------: | :---------: | :-----------------------------: | -------- |
 |    API Key     |   String    | HTTP Authorization Basic Header | Required |
 |   device_id    |   String    |              Path               | Required |
+|  safezone_id   | Number      |              Path               | Required |
 |      body      | JSON object |              Body               | Required |
 
 **Response:**
