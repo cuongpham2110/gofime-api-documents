@@ -119,6 +119,7 @@
 | :------------: | :---------: | :-----------------------------: | -------- |
 |    API Key     |   String    | HTTP Authorization Basic Header | Required |
 |   device_id    |   String    |              Path               | Required |
+|  safezone_id   | Number      |              Path               | Required |
 |      body      | JSON object |              Body               | Required |
 
 `body` with parameter content type: application/json
