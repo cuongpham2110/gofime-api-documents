@@ -10,8 +10,6 @@
 | :------------: | :----: | :-----------------------------: | ----------------------------------------------------- | -------- |
 |    API Key     | String | HTTP Authorization Basic Header |                                                       | Required |
 |   device_id    | String |              Path               |                                                       | Required |
-|     fields     | String |              Query              | device_id, safezone_id, center, radius, label, status | Optional |
-
 
 
 **Response:**
