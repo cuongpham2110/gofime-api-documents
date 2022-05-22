@@ -135,7 +135,6 @@
 ```json
 {
 	"device": {
-		"device_id": "device_id",
 		"safezone": {
 			"center": {
 				"longitude": "longitude",
