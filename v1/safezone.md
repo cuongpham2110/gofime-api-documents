@@ -125,8 +125,6 @@
 
 | Body parameter name | Description                    | Data Type    | Valid value   | Property |
 | ------------------- | ------------------------------ | ------------ | ------------- | -------- |
-| device_id           | Device ID                      | String       |               | Required |
-| safezone_id         | Safezone ID                    | Number       | 1, 2, 3, 4, 5 | Required |
 | longitude           | Center longitude               | Float String |               | Optional |
 | latitude            | Center latitude                | Float String |               | Optional |
 | radius              | Safezone radius. Unit is meter | Number       |               | Optional |
@@ -230,15 +228,6 @@
 |    API Key     |   String    | HTTP Authorization Basic Header | Required |
 |   device_id    |   String    |              Path               | Required |
 |      body      | JSON object |              Body               | Required |
-
-`body` with parameter content type: application/json
-
-| Body parameter name | Description | Data Type | Valid value   | Property |
-| ------------------- | ----------- | --------- | ------------- | -------- |
-| device_id           | Device ID   | String    |               | Required |
-| safezone_id         | Safezone ID | Number    | 1, 2, 3, 4, 5 | Required |
-
-
 
 **Response:**
 
