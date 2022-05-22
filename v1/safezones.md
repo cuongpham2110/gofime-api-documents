@@ -28,8 +28,8 @@
 			{
 				"safezone_id": 1,
 				"center": {
-					"longitude": "longitude",
-					"latitude": "latitude"
+					"longitude": 0.0,
+					"latitude": 0.0
 				},
 				"radius": 200,
 				"label": "label"
@@ -37,8 +37,8 @@
 			{
 				"safezone_id": 2,
 				"center": {
-					"longitude": "longitude",
-					"latitude": "latitude"
+					"longitude": 0.0,
+					"latitude": 0.0
 				},
 				"radius": 200,
 				"label": "label"
@@ -46,8 +46,8 @@
 			{
 				"safezone_id": 3,
 				"center": {
-					"longitude": "longitude",
-					"latitude": "latitude"
+					"longitude": 0.0,
+					"latitude": 0.0
 				},
 				"radius": 200,
 				"label": "label"
@@ -55,8 +55,8 @@
 			{
 				"safezone_id": 4,
 				"center": {
-					"longitude": "longitude",
-					"latitude": "latitude"
+					"longitude": 0.0,
+					"latitude": 0.0
 				},
 				"radius": 200,
 				"label": "label"
@@ -64,8 +64,8 @@
 			{
 				"safezone_id": 5,
 				"center": {
-					"longitude": "longitude",
-					"latitude": "latitude"
+					"longitude": 0.0,
+					"latitude": 0.0
 				},
 				"radius": 200,
 				"label": "label"
@@ -89,8 +89,8 @@
 | device_id                | Device ID                      | String       |               |
 | safezone_id              | Safezone ID                    | Number       | 1, 2, 3, 4, 5 |
 | center                   | Safezone circle center         | Object       |               |
-| longitude                | Center longitude               | Float String |               |
-| latitude                 | Center latitude                | Float String |               |
+| longitude                | Center longitude               | Double  |               |
+| latitude                 | Center latitude                | Double  |               |
 | radius                   | Safezone radius. Unit is meter | Number       |               |
 | label                    | Safezone label                 | String       |               |
 
@@ -164,8 +164,8 @@
 | ------------------- | ------------------------------ | ------------ | ------------- | -------- |
 | device_id           | Device ID                      | String       |               | Required |
 | safezone_id         | Safezone ID                    | Number       | 1, 2, 3, 4, 5 | Required |
-| longitude           | Center longitude               | Float String |               | Required |
-| latitude            | Center latitude                | Float String |               | Required |
+| longitude           | Center longitude               | Double  |               | Required |
+| latitude            | Center latitude                | Double  |               | Required |
 | radius              | Safezone radius. Unit is meter | Number       |               | Required |
 | label               | Safezone label                 | String UTF-8 |               | Required |
 
@@ -177,8 +177,8 @@
             {
                 "safezone_id": 1,
                 "center": {
-                    "longitude": "longitude",
-                    "latitude": "latitude"
+                    "longitude": 0.0,
+                    "latitude": 0.0
                 },
                 "radius": 200,
                 "label": "label"
@@ -186,8 +186,8 @@
             {
                 "safezone_id": 5,
                 "center": {
-                    "longitude": "longitude",
-                    "latitude": "latitude"
+                    "longitude": 0.0,
+                    "latitude": 0.0
                 },
                 "radius": 200,
                 "label": "label"
