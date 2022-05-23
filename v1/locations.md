@@ -94,8 +94,8 @@
 | datetime                 | datetime. See [reference format](datetime.md)  | String       |               |
 | longitude                | Longitude                                      | Double       |               |
 | latitude                 | Latitude                                       | Double       |               |
-| velocity                 | Device velocity                                | Double       |               |
-| battery                  | Device battery                                 | Number       |               |
+| velocity                 | Device velocity. Unit km/h                                | Double       |               |
+| battery                  | Device battery. Unit %                                 | Number       |               |
 | device_status            | Device status                                  | Bool Array   |               |
 | S1                       | SOS warning                                    | Bool         |               |
 | S2                       | Exceed allowed velocity                        | Bool         |               |
