@@ -92,9 +92,9 @@
 | stop_datetime            | Equal to to_datetime                           | String       |               |
 | size                     | Total records in current page                  | Number       |               |
 | datetime                 | datetime. See [reference format](datetime.md)  | String       |               |
-| longitude                | Longitude                                      | Float String |               |
-| latitude                 | Latitude                                       | Float String |               |
-| velocity                 | Device velocity                                | Float String |               |
+| longitude                | Longitude                                      | Double       |               |
+| latitude                 | Latitude                                       | Double       |               |
+| velocity                 | Device velocity                                | Double       |               |
 | battery                  | Device battery                                 | Number       |               |
 | device_status            | Device status                                  | Bool Array   |               |
 | S1                       | SOS warning                                    | Bool         |               |
