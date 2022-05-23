@@ -28,50 +28,49 @@
 
 ```json
 {
-	"device":{
+	"device": {
 		"device_id": "device_id",
-        "locations": {
-            "type": "type",
-            "start_datetime": "01-08-2020 13:50:47",
-            "stop_datetime": "04-08-2020 07:10:25",
-            "size": 50,
-            "records": [
-                {
-                    "datetime": "01-08-2020 13:51:13",
-                    "longitude": "longitude",
-                    "latitude": "latitude",
-                    "velocity": "velocity",
-                    "battery": "battery",
-                    "device_status": ["S1", "S2", "S3", "S4", "S5"],
-                    "safezone_status": {
-                        "inside_safezone_id": [],
-                        "outside_safezone_id": [],
-                        "undefined_safezone_id": []
-                    }
-                },
-                {
-                    "datetime": "01-08-2020 13:51:13",
-                    "longitude": "longitude",
-                    "latitude": "latitude",
-                    "velocity": "velocity",
-                    "battery":"battery",
-                    "device_status" : ["S1", "S2", "S3", "S4", "S5"],
-                    "safezone_status":{
-                        "inside_safezone_id":[],
-                        "outside_safezone_id":[],
-                        "undefined_safezone_id":[]
-                    }
-                },
-            ]
-        }	
+		"locations": {
+			"type": "type",
+			"start_datetime": "01-08-2020 13:50:47",
+			"stop_datetime": "04-08-2020 07:10:25",
+			"size": 50,
+			"records": [{
+					"datetime": "01-08-2020 13:51:13",
+					"longitude": "longitude",
+					"latitude": "latitude",
+					"velocity": "velocity",
+					"battery": "battery",
+					"device_status": ["S1", "S2", "S3", "S4", "S5"],
+					"safezone_status": {
+						"inside_safezone_id": [],
+						"outside_safezone_id": [],
+						"undefined_safezone_id": []
+					}
+				},
+				{
+					"datetime": "01-08-2020 13:51:13",
+					"longitude": "longitude",
+					"latitude": "latitude",
+					"velocity": "velocity",
+					"battery": "battery",
+					"device_status": ["S1", "S2", "S3", "S4", "S5"],
+					"safezone_status": {
+						"inside_safezone_id": [],
+						"outside_safezone_id": [],
+						"undefined_safezone_id": []
+					}
+				}
+			]
+		}
 	},
-	"pagination":{
-        "current_page_index":10,
-	"count": 50,
-        "limit": 100,
-        "total_page": 10,
-        "total_record": 950,
-    },
+	"pagination": {
+		"current_page_index": 10,
+		"count": 50,
+		"limit": 100,
+		"total_page": 10,
+		"total_record": 950
+	},
 	"status": {
 		"code": 200,
 		"name": "OK",
