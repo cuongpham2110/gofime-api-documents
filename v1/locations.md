@@ -37,9 +37,9 @@
 			"size": 50,
 			"records": [{
 					"datetime": "YYYY-MM-DDTHH:mm:ss+07:00",
-					"longitude": "longitude",
-					"latitude": "latitude",
-					"velocity": "velocity",
+					"longitude": 0.0,
+					"latitude": 0.0,
+					"velocity": 0.0,
 					"battery": "battery",
 					"device_status": ["S1", "S2", "S3", "S4", "S5"],
 					"safezone_status": {
@@ -53,7 +53,7 @@
 					"longitude": "longitude",
 					"latitude": "latitude",
 					"velocity": "velocity",
-					"battery": "battery",
+					"battery": 0,
 					"device_status": ["S1", "S2", "S3", "S4", "S5"],
 					"safezone_status": {
 						"inside_safezone_id": [],
