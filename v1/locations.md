@@ -32,11 +32,11 @@
 		"device_id": "device_id",
 		"locations": {
 			"type": "type",
-			"start_datetime": "01-08-2020 13:50:47",
-			"stop_datetime": "04-08-2020 07:10:25",
+			"start_datetime": "YYYY-MM-DDTHH:mm:ss+07:00",
+			"stop_datetime": "YYYY-MM-DDTHH:mm:ss+07:00",
 			"size": 50,
 			"records": [{
-					"datetime": "01-08-2020 13:51:13",
+					"datetime": "YYYY-MM-DDTHH:mm:ss+07:00",
 					"longitude": "longitude",
 					"latitude": "latitude",
 					"velocity": "velocity",
