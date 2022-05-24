@@ -66,7 +66,7 @@
 	},
 	"pagination": {
 		"current_page_index": 10,
-		"count": 50,
+		"count_in_page": 50,
 		"limit": 100,
 		"total_page": 10,
 		"total_record": 950
@@ -108,7 +108,7 @@
 | undefined_safezone_id    | Undefined safezone IDs                         | Number array |               |
 | pagination               | Pagination                                     | Object       |               |
 | current_page_index       | Current page index                             | Number. Count from 1       |               |
-| count                    | Number of locations in curent page		    | Number       |               |
+| count_in_page                    | Number of locations in curent page		    | Number       |               |
 | limit                    | Equal to body request querry parameter `limit` | Number       |               |
 | total_page               | Total pages                                    | Number       |               |
 | total_record             | Total records                                  | Number       |               |
