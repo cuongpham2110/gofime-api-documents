@@ -14,7 +14,7 @@
 | from_datetime  | String |              Query              | See [reference format](datetime.md)                          | Required if type is history |
 |  to_datetime   | String |              Query              | See [reference format](datetime.md)                          | Required if type is history |
 |      page      | Number |              Query              | Specific page of results to return<br>Default: 1. Minimum: 1 | Optional                    |
-|     limit      | Number |              Query              | Maximum number of records per page<br>Default: 100. Minimum: 1. Maximum 1000 | Optional                    |
+|     limit      | Number |              Query              | Maximum number of records per page<br>Default: 50. Minimum: 1. Maximum 100 | Optional                    |
 |      sort      | String |              Query              | **desc** (descending) or **asc** (ascending) by datetime     | Optional                    |
 |     fields     | String |              Query              | device_id, type, start_datetime, stop_datetime, size, datetime, longitude, latitude, velocity, battery, device_status, safezone_status, pagination, status | Optional                    |
 
