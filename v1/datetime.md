@@ -7,6 +7,9 @@
 ```javascript
 YYYY-MM-DDTHH:mm:ss+07:00
 ```
+```URL Parameter
+YYYY-MM-DDTHH:mm:ss%2b07:00
+```
 
 **Parameters:**
 
