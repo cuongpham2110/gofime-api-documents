@@ -107,7 +107,7 @@
 | outside_safezone_id      | Safezone IDs that device is outside            | Number array |               |
 | undefined_safezone_id    | Undefined safezone IDs                         | Number array |               |
 | pagination               | Pagination                                     | Object       |               |
-| current_page_index       | Current page index                             | Number       |               |
+| current_page_index       | Current page index                             | Number. Count from 1       |               |
 | count                    | Number of locations in curent page		    | Number       |               |
 | limit                    | Equal to body request querry parameter `limit` | Number       |               |
 | total_page               | Total pages                                    | Number       |               |
