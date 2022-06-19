@@ -1,10 +1,10 @@
 ### /v1/user
 
-##### 1. `GET` /v1/user
+#### 1. `GET` /v1/user
 
-**Description:** Get user information.
+**:bulb: <ins>Description:</ins>** Get user information.
 
-**Parameters:**
+**:bulb: <ins>Request parameters:</ins>**
 
 | Parameter name | Data Type |            Position             | Valid value                                               | Property |
 | :------------: | :-------: | :-----------------------------: | --------------------------------------------------------- | -------- |
@@ -13,7 +13,7 @@
 
 
 
-**Response:**
+**:bulb: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
@@ -108,16 +108,20 @@
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
-
-
+**:bulb: <ins>cURL example:</ins>**
+<pre>
+curl --location --request GET 'https://api.gofime.vn:5000/v1/user' \
+--header 'Authorization: Bearer <b>your-api-key</b>'
+</pre>
 
 ------
+<br />
 
-##### 2. `PATCH` /v1/user
+#### 2. `PATCH` /v1/user
 
-**Description:** Modify user information partially.
+**<ins>Description:</ins>** Modify user information partially.
 
-**Parameters:**
+**<ins>Request parameters:</ins>**
 
 | Parameter name |  Data Type  |            Position             | Property |
 | :------------: | :---------: | :-----------------------------: | -------- |
@@ -144,7 +148,7 @@
 
 
 
-**Response:**
+**<ins>Response format:</ins>**
 
 **Response content type:** application/json
 
@@ -213,14 +217,15 @@
 
 
 ------
+<br />
 
-##### 3. `POST` `PUT` `DELETE` /v1/user
+#### 3. `POST` `PUT` `DELETE` /v1/user
 
-**Description:** These methods are not supported.
+**<ins>Description:</ins>** These methods are not supported.
 
-**Parameters:** None
+**<ins>Request parameters:</ins>** None
 
-**Response:**
+**<ins>Response format:</ins>**
 
 **Response content type:** application/json
 
