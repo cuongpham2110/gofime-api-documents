@@ -32,7 +32,6 @@
 			"type": "type",
 			"start_datetime": "YYYY-MM-DDTHH:mm:ss+07:00",
 			"stop_datetime": "YYYY-MM-DDTHH:mm:ss+07:00",
-			"size": 50,
 			"records": [{
 					"datetime": "YYYY-MM-DDTHH:mm:ss+07:00",
 					"longitude": 0.0,
