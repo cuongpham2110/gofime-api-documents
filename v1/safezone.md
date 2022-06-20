@@ -219,9 +219,6 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-dev
 **:star: <ins>cURL example:</ins>**
 <pre>
 curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-device-id</b>/safezones/<b>your-safezone-id</b>' \
---header 'Authorization: Bearer <b>your-api-key</b>'
-
-curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-device-id</b>/safezones/<b>your-safezone-id</b>' \
 --header 'Authorization: Bearer <b>your-api-key</b>' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -241,6 +238,7 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-dev
 
 ------
 <br />
+
 #### 3. `DELETE` /v1/devices/{device_id}/safezones/{safezone_id}
 
 **:star: <ins>Description:</ins>** Modify safezone property partially
@@ -328,6 +326,7 @@ curl --location --request DELETE 'https://api.gofime.vn:5000/v1/devices/<b>your-
 
 ------
 <br />
+
 #### 4.  `POST` `PUT` /v1/devices/{device_id}/safezones/{safezone_id}
 
 **:star: <ins>Description:</ins>** These methods are not supported.
