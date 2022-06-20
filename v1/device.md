@@ -1,6 +1,6 @@
 ### /v1/devices/{device_id}
 
-#### 1. `GET` /api/v1/devices/{device_id}
+#### 1. `GET` /v1/devices/{device_id}
 
 **:star: <ins>Description:</ins>** Get information of specific device in device list
 
