@@ -1,10 +1,10 @@
-### /api/v1/devices/{device_id}
+### /v1/devices/{device_id}
 
-##### 1. `GET` /api/v1/devices/{device_id}
+#### 1. `GET` /api/v1/devices/{device_id}
 
-**Description:** Get information of specific devices in device list
+**:star: <ins>Description:</ins>** Get information of specific device in device list
 
-**Parameters:**
+**:star: <ins>Request parameters:</ins>**
 
 | Parameter name | Data Type |            Position             | Valid value                                                  | Property |
 | :------------: | :-------: | :-----------------------------: | ------------------------------------------------------------ | -------- |
@@ -14,7 +14,7 @@
 
 
 
-**Response:**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
@@ -124,16 +124,21 @@
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
-
+**:star: <ins>cURL example:</ins>**
+<pre>
+curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-device-id</b>' \
+--header 'Authorization: Bearer <b>your-api-key</b>'
+</pre>
 
 
 ------
+<br />
 
-##### 2. `PATCH` /api/v1/devices/{device_id}
+##### 2. `PATCH` /v1/devices/{device_id}
 
-**Description:** Modify specific device configuration.
+**:star: <ins>Description:</ins>** Modify specific device configuration.
 
-**Parameters:**
+**:star: <ins>Request parameters:</ins>**
 
 | Parameter name |  Data Type  |            Position             | Property |
 | :------------: | :---------: | :-----------------------------: | -------- |
@@ -175,7 +180,7 @@
 
 
 
-**Response:**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
@@ -260,12 +265,13 @@
 
 
 ------
+<br />
 
-##### 3. `DELETE` /api/v1/devices/{device_id}
+#### 3. `DELETE` /v1/devices/{device_id}
 
-**Description:** Delete devices in user's device list.
+**:star: <ins>Description:</ins>** Delete devices in user's device list.
 
-**Parameters:**
+**:star: <ins>Request parameters:</ins>**
 
 | Parameter name | Data Type |            Position             |
 | :------------: | :-------: | :-----------------------------: |
@@ -274,7 +280,7 @@
 
 
 
-**Response:**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
@@ -339,18 +345,24 @@
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
+**:star: <ins>cURL example:</ins>**
+<pre>
+curl --location --request DELETE 'https://api.gofime.vn:5000/v1/devices/<b>your-device-id</b>' \
+--header 'Authorization: Bearer <b>your-api-key</b>'
+</pre>
 
 
 
 ------
+<br />
 
-##### 4.  `POST` `PUT` /api/v1/devices/{device_id}
+#### 4.  `POST` `PUT` /v1/devices/{device_id}
 
-**Description:** These methods are not supported.
+**:star: <ins>Description:</ins>** These methods are not supported.
 
-**Parameters:** None
+**:star: <ins>Request parameters:</ins>** None
 
-**Response:**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
