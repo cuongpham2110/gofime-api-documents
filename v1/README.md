@@ -8,7 +8,7 @@
 
 ------
 
-##### 1. Resource
+### 1. Resource
 
 In version V1, there are 4 resources which are:
 
@@ -17,7 +17,7 @@ In version V1, there are 4 resources which are:
 - `Safezones`: Safezones of each device
 - `Locations`: Location of each device
 
-##### 2. Routes and endpoints
+### 2. Routes and endpoints
 
 | Routes                                                       |        GET         |        POST        | PUT  |       DELETE       |       PATCH        |
 | ------------------------------------------------------------ | :----------------: | :----------------: | :--: | :----------------: | :----------------: |
@@ -30,7 +30,7 @@ In version V1, there are 4 resources which are:
 
 
 
-##### 3. Status code
+### 3. Status code
 
 | Code |        Name         |                   Description                   |
 | :--: | :-----------------: | :---------------------------------------------: |
@@ -62,7 +62,7 @@ In version V1, there are 4 resources which are:
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
-##### 4. API Quota
+### 4. API Quota
 - 10 requests per minute
 - 1600 requests per day
 
