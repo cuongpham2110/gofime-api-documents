@@ -1,10 +1,10 @@
-### /api/v1/devices/{device_id}/safezones/{safezone_id}
+### /v1/devices/{device_id}/safezones/{safezone_id}
 
-##### 1. `GET` /api/v1/devices/{device_id}/safezones/{safezone_id}
+#### 1. `GET` /v1/devices/{device_id}/safezones/{safezone_id}
 
-**Description:** Get information of specific safezone of specific device.
+**:star: <ins>Description:</ins>** Get information of specific safezone of specific device.
 
-**Parameters:**
+**:star: <ins>Request parameters:</ins>**
 
 | Parameter name |  Type  |            Position             | Valid value                                           | Property |
 | :------------: | :----: | :-----------------------------: | ----------------------------------------------------- | -------- |
@@ -13,7 +13,7 @@
 |  safezone_id   | Number |              Path               | 1, 2, 3, 4, 5                                         | Required |
 
 
-**Response:**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
@@ -106,12 +106,13 @@
 
 
 ------
+<br />
 
-##### 2. `PATCH` /api/v1/devices/{device_id}/safezones/{safezone_id}
+#### 2. `PATCH` /v1/devices/{device_id}/safezones/{safezone_id}
 
-**Description:** Modify safezone property partially
+**:star: <ins>Description:</ins>** Modify safezone property partially
 
-**Parameters:**
+**:star: <ins>Request parameters:</ins>**
 
 | Parameter name |    Type     |            Position             | Property |
 | :------------: | :---------: | :-----------------------------: | -------- |
@@ -146,7 +147,7 @@
 
 
 
-**Response:**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
@@ -215,12 +216,12 @@
 
 
 ------
+<br />
+#### 3. `DELETE` /v1/devices/{device_id}/safezones/{safezone_id}
 
-##### 3. `DELETE` /api/v1/devices/{device_id}/safezones/{safezone_id}
+**:star: <ins>Description:</ins>** Modify safezone property partially
 
-**Description:** Modify safezone property partially
-
-**Parameters:**
+**:star: <ins>Response parameters:</ins>**
 
 | Parameter name |    Type     |            Position             | Property |
 | :------------: | :---------: | :-----------------------------: | -------- |
@@ -229,7 +230,7 @@
 |  safezone_id   | Number      |              Path               | Required |
 |      body      | JSON object |              Body               | Required |
 
-**Response:**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
@@ -298,14 +299,14 @@
 
 
 ------
+<br />
+#### 4.  `POST` `PUT` /v1/devices/{device_id}/safezones/{safezone_id}
 
-##### 4.  `POST` `PUT` /api/v1/devices/{device_id}/safezones/{safezone_id}
+**:star: <ins>Description:</ins>** These methods are not supported.
 
-**Description:** These methods are not supported.
+**:star: <ins>Request parameters:</ins>** None
 
-**Parameters:** None
-
-**Response:**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
