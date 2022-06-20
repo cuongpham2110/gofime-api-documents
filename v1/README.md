@@ -21,12 +21,12 @@ In version V1, there are 4 resources which are:
 
 | Routes                                                       |        GET         |        POST        | PUT  |       DELETE       |       PATCH        |
 | ------------------------------------------------------------ | :----------------: | :----------------: | :--: | :----------------: | :----------------: |
-| [/v1/user](user.md)                                      | :heavy_check_mark: |                    |      |                    | :heavy_check_mark: |
-| [/v1/devices](devices.md)                                | :heavy_check_mark: | :heavy_check_mark: |      |                    |                    |
-| [/v1/devices/{device_id}](device.md)                     | :heavy_check_mark: |                    |      | :heavy_check_mark: | :heavy_check_mark: |
-| [/v1/devices/{device_id}/locations](locations.md)        | :heavy_check_mark: |                    |      |                    |                    |
-| [/v1/devices/{device_id}/safezones](safezones.md)        | :heavy_check_mark: |  |      |                    |                    |
-| [/v1/devices/{device_id}/safezones/{safezone_id}](safezone.md) | :heavy_check_mark: |                    |      | :heavy_check_mark: | :heavy_check_mark: |
+| :link: [/v1/user](user.md)                                      | :heavy_check_mark: |                    |      |                    | :heavy_check_mark: |
+| :link: [/v1/devices](devices.md)                                | :heavy_check_mark: | :heavy_check_mark: |      |                    |                    |
+| :link: [/v1/devices/{device_id}](device.md)                     | :heavy_check_mark: |                    |      | :heavy_check_mark: | :heavy_check_mark: |
+| :link: [/v1/devices/{device_id}/locations](locations.md)        | :heavy_check_mark: |                    |      |                    |                    |
+| :link: [/v1/devices/{device_id}/safezones](safezones.md)        | :heavy_check_mark: |  |      |                    |                    |
+| :link: [/v1/devices/{device_id}/safezones/{safezone_id}](safezone.md) | :heavy_check_mark: |                    |      | :heavy_check_mark: | :heavy_check_mark: |
 
 
 
