@@ -119,9 +119,9 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/user' \
 
 #### 2. `PATCH` /v1/user
 
-**<ins>Description:</ins>** Modify user information partially.
+**:bulb: <ins>Description:</ins>** Modify user information partially.
 
-**<ins>Request parameters:</ins>**
+**:bulb: <ins>Request parameters:</ins>**
 
 | Parameter name |  Data Type  |            Position             | Property |
 | :------------: | :---------: | :-----------------------------: | -------- |
@@ -141,14 +141,14 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/user' \
 {
 	"info":{
 		"name": "user_name",
-		"phone": "user_phone",
+		"phone": "user_phone"
 	}
 }
 ```
 
 
 
-**<ins>Response format:</ins>**
+**:bulb: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
@@ -213,7 +213,18 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/user' \
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
-
+**:bulb: <ins>cURL example:</ins>**
+<pre>
+curl --location --request PATCH 'https://api.gofime.vn:5000/v1/user' \
+--header 'Authorization: Bearer <b>your-api-key</b>' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+	"info":{
+		"name": "<b>your-name</b>",
+		"phone": "<b>your-phone</b>"
+	}
+}'
+</pre>
 
 
 ------
@@ -221,11 +232,11 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/user' \
 
 #### 3. `POST` `PUT` `DELETE` /v1/user
 
-**<ins>Description:</ins>** These methods are not supported.
+**:bulb: <ins>Description:</ins>** These methods are not supported.
 
-**<ins>Request parameters:</ins>** None
+**:bulb: <ins>Request parameters:</ins>** None
 
-**<ins>Response format:</ins>**
+**:bulb: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
