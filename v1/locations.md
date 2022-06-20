@@ -1,10 +1,10 @@
-### /api/v1/devices/{device_id}/locations
+### /v1/devices/{device_id}/locations
 
-##### 1. `GET` /api/v1/devices/{device_id}/locations
+#### 1. `GET` /v1/devices/{device_id}/locations
 
-**Description:** Get information of locations of specific device
+**:star: <ins>Description:</ins>** Get information of locations of specific device. There are 2 type: history locations and latest locations.
 
-**Parameters:**
+**:star: <ins>Request parameters:</ins>**
 
 | Parameter name |  Type  |            Position             | Valid value                                                  | Property                    |
 | :------------: | :----: | :-----------------------------: | ------------------------------------------------------------ | --------------------------- |
@@ -18,7 +18,7 @@
 |      sort      | String |              Query              | **desc** (descending) or **asc** (ascending) by datetime     | Optional                    |
 
 
-**Response:**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
@@ -161,14 +161,15 @@
 
 
 ------
+<br />
 
-##### 2.  `POST` `PUT` `PATCH` `DELETE` /api/v1/devices/{device_id}/locations
+#### 2.  `POST` `PUT` `PATCH` `DELETE` /v1/devices/{device_id}/locations
 
-**Description:** These methods are not supported.
+**:star: <ins>Description:</ins>** These methods are not supported.
 
-**Parameters:** None
+**:star: <ins>Response parameters:</ins>** None
 
-**Response:**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
