@@ -1,10 +1,10 @@
-### /api/v1/devices/{device_id}/safezones
+### /v1/devices/{device_id}/safezones
 
-##### 1. `GET` /api/v1/devices/{device_id}/safezones
+#### 1. `GET` /v1/devices/{device_id}/safezones
 
-**Description:** Get information of safezones of specific device
+**:star: <ins>Description:</ins>** Get information of safezones of specific device
 
-**Parameters:**
+**:star: <ins>Request parameters:</ins>**
 
 | Parameter name |  Type  |            Position             | Valid value                                           | Property |
 | :------------: | :----: | :-----------------------------: | ----------------------------------------------------- | -------- |
@@ -12,7 +12,7 @@
 |   device_id    | String |              Path               |                                                       | Required |
 
 
-**Response:**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
@@ -141,14 +141,15 @@
 ```
 
 ------
+<br />
 
-##### 2.  `POST` `PUT` `PATCH` `DELETE` /api/v1/devices/{device_id}/safezones
+#### 2.  `POST` `PUT` `PATCH` `DELETE` /v1/devices/{device_id}/safezones
 
-**Description:** These methods are not supported.
+**:star: <ins>Description:</ins>** These methods are not supported.
 
-**Parameters:** None
+**:star: <ins>Request parameters:</ins>** None
 
-**Response:**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
