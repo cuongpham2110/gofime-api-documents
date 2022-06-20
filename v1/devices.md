@@ -1,10 +1,10 @@
-### /api/v1/devices
+### /v1/devices
 
-##### 1. `GET` /api/v1/devices
+#### 1. `GET` /v1/devices
 
-**Description:** Get information of all devices.
+**:star: <ins>Description:</ins>** Get information of all devices.
 
-**Parameters:**
+**:star: <ins>Request parameters:</ins>**
 
 | Parameter name | Data Type |            Position             | Valid value                                                  | Property |
 | :------------: | :-------: | :-----------------------------: | ------------------------------------------------------------ | -------- |
@@ -12,7 +12,7 @@
 |     fields     |  String   |              Query              | device_id, nickname, type, icon, color, status, firmware, sim_phone_number, sos_phone_number, report_interval, config, sim_account_balance, battery | Optional |
 
 
-**Response:**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
@@ -147,16 +147,21 @@
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
-
+**:star: <ins>cURL example:</ins>**
+<pre>
+curl --location --request GET 'https://api.gofime.vn:5000/v1/devices' \
+--header 'Authorization: Bearer <b>your-api-key</b>'
+</pre>
 
 
 ------
+<br />
 
-##### 2. `POST` /api/v1/devices
+#### 2. `POST` /v1/devices
 
-**Description:** Add new device into current user's device list.
+**:star: <ins>Description:</ins>** Add new device into current user's device list.
 
-**Parameters:**
+**:star: <ins>Request parameters:</ins>**
 
 | Parameter name |  Data Type  |            Position             | Property |
 | :------------: | :---------: | :-----------------------------: | -------- |
@@ -187,7 +192,7 @@
 
 
 
-**Response:**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
@@ -252,18 +257,32 @@
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
-
-
+**:star: <ins>cURL example:</ins>**
+<pre>
+curl --location --request POST 'https://api.gofime.vn:5000/v1/devices' \
+--header 'Authorization: Bearer <b>your-api-key</b>' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+	"device": {
+		"device_id": "<b>your-device-id</b>",
+		"passcode": "<b>your-device-passcode</b>",
+		"nickname": "<b>your-device-nickname</b>",
+		"icon": "<b>your-device-icon</b>",
+		"color": "<b>your-device-color</b>"
+	}
+}'
+</pre>
 
 ------
+<br />
 
-##### 3.  `PUT` `PATCH` `DELETE` /api/v1/devices
+#### 3.  `PUT` `PATCH` `DELETE` /v1/devices
 
-**Description:** These methods are not supported.
+**:star: <ins>Description:</ins>** These methods are not supported.
 
-**Parameters:** None
+**:star: <ins>Request parameters:</ins>** None
 
-**Response:**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
