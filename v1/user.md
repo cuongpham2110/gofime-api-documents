@@ -2,9 +2,9 @@
 
 #### 1. `GET` /v1/user
 
-**:bulb: <ins>Description:</ins>** Get user information.
+**:star: <ins>Description:</ins>** Get user information.
 
-**:bulb: <ins>Request parameters:</ins>**
+**:star: <ins>Request parameters:</ins>**
 
 | Parameter name | Data Type |            Position             | Valid value                                               | Property |
 | :------------: | :-------: | :-----------------------------: | --------------------------------------------------------- | -------- |
@@ -13,7 +13,7 @@
 
 
 
-**:bulb: <ins>Response format by response code:</ins>**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
@@ -108,7 +108,7 @@
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
-**:bulb: <ins>cURL example:</ins>**
+**:star: <ins>cURL example:</ins>**
 <pre>
 curl --location --request GET 'https://api.gofime.vn:5000/v1/user' \
 --header 'Authorization: Bearer <b>your-api-key</b>'
@@ -119,9 +119,9 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/user' \
 
 #### 2. `PATCH` /v1/user
 
-**:bulb: <ins>Description:</ins>** Modify user information partially.
+**:star: <ins>Description:</ins>** Modify user information partially.
 
-**:bulb: <ins>Request parameters:</ins>**
+**:star: <ins>Request parameters:</ins>**
 
 | Parameter name |  Data Type  |            Position             | Property |
 | :------------: | :---------: | :-----------------------------: | -------- |
@@ -148,7 +148,7 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/user' \
 
 
 
-**:bulb: <ins>Response format by response code:</ins>**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
@@ -213,7 +213,7 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/user' \
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
-**:bulb: <ins>cURL example:</ins>**
+**:star: <ins>cURL example:</ins>**
 <pre>
 curl --location --request PATCH 'https://api.gofime.vn:5000/v1/user' \
 --header 'Authorization: Bearer <b>your-api-key</b>' \
@@ -232,11 +232,11 @@ curl --location --request PATCH 'https://api.gofime.vn:5000/v1/user' \
 
 #### 3. `POST` `PUT` `DELETE` /v1/user
 
-**:bulb: <ins>Description:</ins>** These methods are not supported.
+**:star: <ins>Description:</ins>** These methods are not supported.
 
-**:bulb: <ins>Request parameters:</ins>** None
+**:star: <ins>Request parameters:</ins>** None
 
-**:bulb: <ins>Response format by response code:</ins>**
+**:star: <ins>Response format by response code:</ins>**
 
 **Response content type:** application/json
 
