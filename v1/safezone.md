@@ -102,7 +102,11 @@
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
-
+**:star: <ins>cURL example:</ins>**
+<pre>
+curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-device-id</b>/safezones/<b>your-safezone-id</b>' \
+--header 'Authorization: Bearer <b>your-api-key</b>'
+</pre>
 
 
 ------
@@ -212,7 +216,27 @@
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
+**:star: <ins>cURL example:</ins>**
+<pre>
+curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-device-id</b>/safezones/<b>your-safezone-id</b>' \
+--header 'Authorization: Bearer <b>your-api-key</b>'
 
+curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-device-id</b>/safezones/<b>your-safezone-id</b>' \
+--header 'Authorization: Bearer <b>your-api-key</b>' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+	"device": {
+		"safezone": {
+			"center": {
+				"longitude": "<b>your-safezone-longitude</b>",
+				"latitude": "<b>your-safezone-latitude</b>"
+			},
+			"radius": <b>your-safezone-radius</b>,
+			"label": "<b>your-safezone-label</b>"
+		}
+	}
+}'
+</pre>
 
 
 ------
@@ -295,7 +319,11 @@
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
-
+**:star: <ins>cURL example:</ins>**
+<pre>
+curl --location --request DELETE 'https://api.gofime.vn:5000/v1/devices/<b>your-device-id</b>/safezones/<b>your-safezone-id</b>' \
+--header 'Authorization: Bearer <b>your-api-key</b>'
+</pre>
 
 
 ------
