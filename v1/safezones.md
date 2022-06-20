@@ -139,6 +139,11 @@
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
+**:star: <ins>cURL example:</ins>**
+<pre>
+curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-device-id</b>/safezones' \
+--header 'Authorization: Bearer <b>your-api-key</b>'
+</pre>
 
 ------
 <br />
