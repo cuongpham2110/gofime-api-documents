@@ -177,7 +177,7 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-dev
 > * This method is only valid when device status is **online**. If device status is **offline**, request may return code 460
 > * This method is interacting with real device, therefore it will takes more times than other request
 > * Other reason leading to failure in a transaction/request will make request return code 460
-
+> * If previous request is still processed by server, this will make request return code 409
 
 
 **:star: <ins>Response format by response code:</ins>**
