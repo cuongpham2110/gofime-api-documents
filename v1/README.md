@@ -58,7 +58,7 @@ In version V1, there are 4 resources which are:
 		"message": "Method is not allowed",
 		"additional_message": ""
 	},
-	"doclink": "https://gofime.vn/developers/documentation"
+	"doclink": "https://github.com/Chipstack/gofime-api-documents"
 }
 ```
 
