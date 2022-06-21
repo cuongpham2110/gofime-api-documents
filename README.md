@@ -19,7 +19,7 @@ You can get or set information, configuration of multiple devices. Let's manage 
 
 #### Bug report
 
-Please submit bug or request through Github issue. You may write description in a detailed way so that we can solve your issue appropriately and quickly 
+Please submit bug or request through Github issue. You may write description in a detailed way so that we can solve your issue appropriately and quickly.
 
 
 
