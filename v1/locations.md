@@ -157,7 +157,22 @@
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
+**:star: <ins>cURL example:</ins>**
+> `Get latest location`
+<pre>
+curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-device-id</b>/locations?type=latest' \
+--header 'Authorization: Bearer <b>your-api-key</b>'
+</pre>
 
+> `Get history locations`
+<pre>
+
+curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-device-id</b>/locations?type=history&from_datetime=<b>your-start-datetime</b>&to_datetime=<b>your-end-datetime</b>' \
+--header 'Authorization: Bearer <b>your-api-key</b>'
+
+curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-device-id</b>/locations?type=history&from_datetime=<b>your-start-datetime</b>&to_datetime=<b>your-end-datetime</b>&limit=<b>your-record-limit-in-a-page</b>&page=<b>your-page-index</b>&sort=<b>your-sort-type</b>' \
+--header 'Authorization: Bearer <b>your-api-key</b>'
+</pre>
 
 
 ------
