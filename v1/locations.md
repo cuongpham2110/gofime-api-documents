@@ -74,7 +74,7 @@
 		"message": "Success",
 		"additional_message": ""
 	},
-	"doclink": "https://gofime.vn/developers/documentation"
+	"doclink": "https://github.com/Chipstack/gofime-api-documents"
 }
 ```
 
@@ -122,7 +122,7 @@
 		"message": "Invalid parameters",
 		"additional_message": ""
 	},
-	"doclink": "https://gofime.vn/developers/documentation"
+	"doclink": "https://github.com/Chipstack/gofime-api-documents"
 }
 ```
 
@@ -138,7 +138,7 @@
 		"message": "Client is unauthorized",
 		"additional_message": ""
 	},
-	"doclink": "https://gofime.vn/developers/documentation"
+	"doclink": "https://github.com/Chipstack/gofime-api-documents"
 }
 ```
 
@@ -154,7 +154,7 @@
 		"message": "Client is blocked and forbidden in all services",
 		"additional_message": ""
 	},
-	"doclink": "https://gofime.vn/developers/documentation"
+	"doclink": "https://github.com/Chipstack/gofime-api-documents"
 }
 ```
 **:star: <ins>cURL example:</ins>**
@@ -198,7 +198,7 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-dev
 		"message": "Method is not allowed",
 		"additional_message": ""
 	},
-	"doclink": "https://gofime.vn/developers/documentation"
+	"doclink": "https://github.com/Chipstack/gofime-api-documents"
 }
 ```
 
@@ -208,4 +208,4 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-dev
 
 ------
 
-> Copyright (c) Gofime Ltd
+> Copyright (c) Chipstack Ltd
