@@ -5,19 +5,22 @@
 </p>
 
 ### GOFIME API V1
-
 ------
 
-### 1. Resource
+### 1. Introduction
+
+Gofime:registered: is smart, low power GPS tracker product line of Chipstack:registered: Ltd. Gofime help us find anything easily because it has multiple advance positioning features and long lifetime. Everyone can track device though mobile app or wep app. If you want to integrate Gofime to your system, you (developer) can use our Restfull APIs to obtain that purpose.  
+
+### 2. Resources
 
 In version V1, there are 4 resources which are:
 
 - `User`: User information
 - `Devices`: Gofime devices 
 - `Safezones`: Safezones of each device
-- `Locations`: Location of each device
+- `Locations`: Locations of each device
 
-### 2. Routes and endpoints
+### 3. Routes and endpoints
 
 | Routes                                                       |        GET         |        POST        | PUT  |       DELETE       |       PATCH        |
 | ------------------------------------------------------------ | :----------------: | :----------------: | :--: | :----------------: | :----------------: |
@@ -30,7 +33,7 @@ In version V1, there are 4 resources which are:
 
 
 
-### 3. Status code
+### 4. Status code
 
 | Code |        Name         |                   Description                   |
 | :--: | :-----------------: | :---------------------------------------------: |
@@ -62,7 +65,9 @@ In version V1, there are 4 resources which are:
 	"doclink": "https://gofime.vn/developers/documentation"
 }
 ```
-### 4. API Quota
+
+### 5. API Quota
+Below is default configured API Quota. The limit can be extended by your demand. Contact us for more information.
 - 10 requests per minute
 - 1600 requests per day
 
