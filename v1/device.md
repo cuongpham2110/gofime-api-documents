@@ -263,6 +263,21 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-dev
 ```
 
 
+> `Code`: **409** CONFLICT
+
+```json
+{
+	"status": {
+		"code": 409,
+		"name": "CONFLICT",
+		"message": "Same type request is processed before",
+		"additional_message": ""
+	},
+	"doclink": "https://gofime.vn/developers/documentation"
+}
+```
+
+
 
 ------
 <br />
