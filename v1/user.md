@@ -41,7 +41,7 @@
 		"message": "Success",
 		"additional_message": ""
 	},
-	"doclink": "https://gofime.vn/developers/documentation"
+	"doclink": "https://github.com/Chipstack/gofime-api-documents"
 }
 ```
 
@@ -73,7 +73,7 @@
 		"message": "Invalid parameters",
 		"additional_message": ""
 	},
-	"doclink": "https://gofime.vn/developers/documentation"
+	"doclink": "https://github.com/Chipstack/gofime-api-documents"
 }
 ```
 
@@ -89,7 +89,7 @@
 		"message": "Client is unauthorized",
 		"additional_message": ""
 	},
-	"doclink": "https://gofime.vn/developers/documentation"
+	"doclink": "https://github.com/Chipstack/gofime-api-documents"
 }
 ```
 
@@ -105,7 +105,7 @@
 		"message": "Client is blocked and forbidden in all services",
 		"additional_message": ""
 	},
-	"doclink": "https://gofime.vn/developers/documentation"
+	"doclink": "https://github.com/Chipstack/gofime-api-documents"
 }
 ```
 **:star: <ins>cURL example:</ins>**
@@ -162,7 +162,7 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/user' \
 		"message": "Success",
 		"additional_message": ""
 	},
-	"doclink": "https://gofime.vn/developers/documentation"
+	"doclink": "https://github.com/Chipstack/gofime-api-documents"
 }
 ```
 
@@ -178,7 +178,7 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/user' \
 		"message": "Invalid parameters",
 		"additional_message": ""
 	},
-	"doclink": "https://gofime.vn/developers/documentation"
+	"doclink": "https://github.com/Chipstack/gofime-api-documents"
 }
 ```
 
@@ -194,7 +194,7 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/user' \
 		"message": "Client is unauthorized",
 		"additional_message": ""
 	},
-	"doclink": "https://gofime.vn/developers/documentation"
+	"doclink": "https://github.com/Chipstack/gofime-api-documents"
 }
 ```
 
@@ -210,7 +210,7 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/user' \
 		"message": "Client is blocked and forbidden in all services",
 		"additional_message": ""
 	},
-	"doclink": "https://gofime.vn/developers/documentation"
+	"doclink": "https://github.com/Chipstack/gofime-api-documents"
 }
 ```
 **:star: <ins>cURL example:</ins>**
@@ -250,7 +250,7 @@ curl --location --request PATCH 'https://api.gofime.vn:5000/v1/user' \
 		"message": "Method is not allowed",
 		"additional_message": ""
 	},
-	"doclink": "https://gofime.vn/developers/documentation"
+	"doclink": "https://github.com/Chipstack/gofime-api-documents"
 }
 ```
 
@@ -260,4 +260,4 @@ curl --location --request PATCH 'https://api.gofime.vn:5000/v1/user' \
 
 ------
 
-> Copyright (c) Gofime Ltd
+> Copyright (c) Chipstack Ltd
