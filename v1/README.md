@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="../materials/img/Gofime-header-v2.png" alt=""/>
+  <img src="../materials/img/Gofime-header-v3.png" alt=""/>
 </p>
 
 ### GOFIME API V1
