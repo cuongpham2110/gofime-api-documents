@@ -110,7 +110,7 @@
 ```
 **:star: <ins>cURL example:</ins>**
 <pre>
-curl --location --request GET 'https://api.gofime.vn:5000/v1/user' \
+curl --location --request GET 'https://api.gofime.vn/v1/user' \
 --header 'Authorization: Bearer <b>your-api-key</b>'
 </pre>
 

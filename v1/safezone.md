@@ -104,7 +104,7 @@
 ```
 **:star: <ins>cURL example:</ins>**
 <pre>
-curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-device-id</b>/safezones/<b>your-safezone-id</b>' \
+curl --location --request GET 'https://api.gofime.vn/v1/devices/<b>your-device-id</b>/safezones/<b>your-safezone-id</b>' \
 --header 'Authorization: Bearer <b>your-api-key</b>'
 </pre>
 
@@ -218,7 +218,7 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-dev
 ```
 **:star: <ins>cURL example:</ins>**
 <pre>
-curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-device-id</b>/safezones/<b>your-safezone-id</b>' \
+curl --location --request GET 'https://api.gofime.vn/v1/devices/<b>your-device-id</b>/safezones/<b>your-safezone-id</b>' \
 --header 'Authorization: Bearer <b>your-api-key</b>' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -319,7 +319,7 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/devices/<b>your-dev
 ```
 **:star: <ins>cURL example:</ins>**
 <pre>
-curl --location --request DELETE 'https://api.gofime.vn:5000/v1/devices/<b>your-device-id</b>/safezones/<b>your-safezone-id</b>' \
+curl --location --request DELETE 'https://api.gofime.vn/v1/devices/<b>your-device-id</b>/safezones/<b>your-safezone-id</b>' \
 --header 'Authorization: Bearer <b>your-api-key</b>'
 </pre>
 

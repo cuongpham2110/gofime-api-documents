@@ -149,7 +149,7 @@
 ```
 **:star: <ins>cURL example:</ins>**
 <pre>
-curl --location --request GET 'https://api.gofime.vn:5000/v1/devices' \
+curl --location --request GET 'https://api.gofime.vn/v1/devices' \
 --header 'Authorization: Bearer <b>your-api-key</b>'
 </pre>
 
@@ -259,7 +259,7 @@ curl --location --request GET 'https://api.gofime.vn:5000/v1/devices' \
 ```
 **:star: <ins>cURL example:</ins>**
 <pre>
-curl --location --request POST 'https://api.gofime.vn:5000/v1/devices' \
+curl --location --request POST 'https://api.gofime.vn/v1/devices' \
 --header 'Authorization: Bearer <b>your-api-key</b>' \
 --header 'Content-Type: application/json' \
 --data-raw '{
